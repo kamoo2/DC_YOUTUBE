@@ -1,6 +1,12 @@
 .container {
-  width: 50%;
   padding: 0.2em;
+}
+
+.container.grid {
+  width: 50%;
+}
+.container.list {
+  width: 100%;
 }
 .video {
   width: 100%;
@@ -33,4 +39,10 @@
 
 .channelTitle {
   font-size: 0.6rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .container.grid {
+    width: 100%;
+  }
 }

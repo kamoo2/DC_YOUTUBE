@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import styles from "./header.module.css";
 import { FiSearch } from "react-icons/fi";
 function Header({ onSearch }) {
@@ -32,4 +32,4 @@ function Header({ onSearch }) {
   );
 }
 
-export default Header;
+export default memo(Header);

@@ -1,0 +1,9 @@
+.detail {
+  padding: 0.2em;
+}
+
+.description {
+  /* pre 태그의 문제점 : 텍스트의 길이에 따라 사이즈가 무지막지하게 길어짐 
+     따라서 white-space를 pre-wrap을 설정해주게 되면 해결 ! */
+  white-space: pre-wrap;
+}

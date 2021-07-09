@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.app {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+
+.detail {
+  flex: 1 1 70%;
+}
+
+.list {
+  flex: 1 1 30%;
+}
+
+@media screen and (max-width: 48rem) {
+  .content {
+    flex-direction: column;
+  }
+}
